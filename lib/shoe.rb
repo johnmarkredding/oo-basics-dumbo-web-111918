@@ -4,6 +4,6 @@ class Shoe
     @brand = brand
   end
   def cobble
-    @brand = brand
+    self.condition = brand
   end
 end
